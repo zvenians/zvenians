@@ -1,4 +1,4 @@
-﻿# Kevin Simatupang
+# Kevin Simatupang
 
 Full-stack developer focused on building resilient web systems, cloud API integrations, and practical workflow platforms.
 
@@ -39,6 +39,17 @@ Church governance and board administration system handling meeting minutes, reso
 * **Stack:** Google Apps Script, Clasp, Vercel Serverless Proxy, Google Sheets DB, Single-Page Architecture
 * **Architecture:** Multi-tiered role-based access control (ADMIN, KEUANGAN, PENGURUS, MAJELIS), automated PDF letterhead generation, and pre-deployment validation scripts enforcing backend integrity.
 * **Links:** [Repository](https://github.com/zvenians/majelis-galilea) | [Live Application](https://majelis-galilea.vercel.app)
+
+---
+
+## Creative & Editorial Web Projects
+
+### [Naomi Rouli — Personal Editorial Website](https://github.com/zvenians/naomirouli)
+A bespoke personal editorial website and visual tribute designed around the aesthetic cadence of an indie print magazine and cinematic exhibition catalog.
+
+* **Stack:** Semantic HTML5, CSS3 Custom Properties, Vanilla JavaScript (ES6+), Firebase Hosting
+* **Architecture:** Nine sequential storytelling scenes driven by a multi-threshold `IntersectionObserver` navigation engine, momentum-based pointer capture photo rail, accessible modal letter overlay, and subtle film-grain texture.
+* **Links:** [Repository](https://github.com/zvenians/naomirouli) | [Live Website](https://naomirouli.web.app)
 
 ---
 
