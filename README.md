@@ -1,110 +1,57 @@
-# Kevin Simatupang
+# Kevin Oloan Simatupang
 
-**Web development · Systems thinking · Practical interfaces**
+Web developer based in Balikpapan, Indonesia. I build websites, internal tools, and interactive experiences, with particular interest in interface design, data workflows, and the systems needed to keep a product maintainable after launch.
 
-Based in **Balikpapan, Indonesia**. I work across frontend development, serverless integrations, Google Workspace automation, and applications that help small teams organize everyday work.
+**[Portfolio](https://portfolio-kevins.vercel.app)** · **[GitHub projects](https://github.com/zvenians?tab=repositories)**
 
-[Portfolio](https://portfolio-kevins.vercel.app) · [Repositories](https://github.com/zvenians?tab=repositories)
+## Selected projects
 
----
+### Kevin's Portfolio
+An interactive portfolio containing project case studies and browser-based demonstrations. The published presentation uses a Google Apps Script authoring workflow and a Vercel frontend; the repository also contains a separate Next.js application.
 
-## Selected work
+[Source](https://github.com/zvenians/kevins-portofolio) · [Visit website](https://portfolio-kevins.vercel.app)
 
-My projects vary in scale, but tend to share a common thread: taking information scattered across tools and shaping it into a usable, maintainable interface.
+### GMAHK Galilea
+A congregation website for worship schedules, scripture and hymn reading, news, and presentation screens. Content management connects the web interface to Google Apps Script and Google Sheets.
 
-### 01 — GMAHK Galilea
+[Source](https://github.com/zvenians/gmahk-galilea) · [Visit website](https://gmahk-galilea.vercel.app/)
 
-**Congregation website and worship companion**
+### Galilea Digital Archive
+A Next.js archive interface with Google Drive file storage, Firebase authentication, Firestore metadata, uploads, and media browsing. The implementation separates public browsing from administrative operations.
 
-A public website for weekly service schedules, church news, Bible and hymn readers, and presentation screens. The frontend uses HTML, CSS, and JavaScript; Vercel routes communicate with Google Apps Script and Google Sheets for managed content.
+[Source](https://github.com/zvenians/gmahk-galilea-digital-archive) · [Visit archive](https://drive-galilea.vercel.app/)
 
-[Repository](https://github.com/zvenians/gmahk-galilea) · [Live website](https://gmahk-galilea.vercel.app/)
+### Majelis Galilea
+Web-based administrative workflows for a congregation board, including meeting records, finance, and correspondence. Google Apps Script and Sheets support the data layer, while Vercel hosts the browser-facing interface.
 
-**Focus:** content delivery, responsive reading, WITA scheduling, offline-aware behavior, and clear boundaries between public and administrative access.
+[Source](https://github.com/zvenians/majelis-galilea) · [Open portal](https://majelis-galilea.vercel.app/)
 
-### 02 — Galilea Digital Archive
+### Kevin & Naomi — Wedding Demo
+A cinematic wedding invitation demonstration built with Next.js and TypeScript. It includes invitation, code-entry, RSVP, and wishes screens for portfolio exploration. Verification and guest responses are simulated; no live guest database is connected.
 
-**Sabbath-organized media and document management**
+[Source](https://github.com/zvenians/wedding-demo) · [View demo](https://wedding-demo.vercel.app/)
 
-A Next.js application connecting a browsable church archive to Google Drive, with Firebase authentication, Firestore metadata, uploads, media previews, and restricted administrative routes.
+### Naomi Rouli
+A personal, nine-chapter editorial website combining photography, scroll-based chapter awareness, and accessible gallery and letter interactions. Built with HTML, CSS, and JavaScript.
 
-[Repository](https://github.com/zvenians/gmahk-galilea-digital-archive) · [Live website](https://drive-galilea.vercel.app/)
+[Source](https://github.com/zvenians/naomirouli) · [Visit website](https://naomirouli.web.app)
 
-**Focus:** file retrieval, upload reliability, time-based organization, and restricting operations to managed storage areas.
+### ATLAS — In development
+A logistics command-center project exploring geospatial operations, vehicle simulation, and shipment workflows. The 3D upgrade remains under active development and review; experimental branches should not be mistaken for a completed production release.
 
-### 03 — Majelis Galilea
+[Source and development history](https://github.com/zvenians/atlas-project)
 
-**Board meeting, finance, and correspondence workflows**
+## Technical work
 
-Administrative software built around Google Apps Script and Google Sheets, with a Vercel-facing web interface. The repository contains meeting governance, budgeting, financial records, and official document workflows.
+My repositories include TypeScript, JavaScript, React, Next.js, HTML/CSS, Google Apps Script, serverless API routes, Firebase, Firestore, and integrations with Google Sheets and Drive. The approach varies by project: smaller editorial sites stay framework-light, while data-heavy tools use server-side authorization and structured services.
 
-[Repository](https://github.com/zvenians/majelis-galilea) · [Live portal](https://majelis-galilea.vercel.app/)
+I keep source responsibilities explicit, distinguish public demonstrations from connected services, and use tests and reviewed changes before release. Repository documentation describes the actual implementation and its limitations.
 
-**Focus:** coherent workflows, role-aware operations, data consistency, and keeping public information separate from internal records.
+## Other work
 
-### 04 — Kevin's Portfolio
-
-**Interactive portfolio and demonstration studio**
-
-My public portfolio combines project case studies with small browser-based demonstrations. The deployed presentation is generated from `apps-script/source/` and served through `vercel-site/`; a separate Next.js/Firebase implementation also exists in the repository.
-
-[Repository](https://github.com/zvenians/kevins-portofolio) · [Visit portfolio](https://portfolio-kevins.vercel.app)
-
-**Focus:** navigation, interaction design, faithful project descriptions, reusable demonstrations, and build reproducibility.
-
-### 05 — Naomi Rouli
-
-**Personal editorial website**
-
-A nine-chapter photography and typography experience built without an application framework. It explores sequential storytelling, small navigation details, and a responsive photo archive.
-
-[Repository](https://github.com/zvenians/naomirouli) · [Live website](https://naomirouli.web.app)
-
-**Focus:** semantic HTML, composition, motion restraint, and keyboard/touch interactions.
-
-### Additional repositories
-
-| Project | What it represents |
-| --- | --- |
-| [Zvenians Web Study](https://github.com/zvenians/zvenians.github.io) | Multi-page product-presentation frontend using HTML, CSS, and Bootstrap navigation |
-| [Galilea Origins](https://github.com/zvenians/galilea) | Historical marker for the first church website initiative |
-
-Each project README documents its actual source structure, setup, checks, and operational boundaries.
-
-## Technology and tooling
-
-| Area | Technologies used across the projects |
-| --- | --- |
-| **Frontend** | HTML, CSS, JavaScript, TypeScript, React, Next.js |
-| **Backend and automation** | Node.js, Vercel serverless functions, Google Apps Script |
-| **Storage and identity** | Google Sheets, Google Drive API, Firebase Authentication, Firestore |
-| **Workflow** | Git, GitHub pull requests, automated tests, code review |
-| **Interface work** | Responsive layouts, browser interaction, accessibility-aware controls, motion preferences |
-
-This table describes technologies present in the repositories, not a certification or claim of expertise in every tool.
-
-## How I work
-
-**Start from the task.** Understand what visitors or staff actually need before choosing layout or technology.
-
-**Make source ownership clear.** Document where the deployed frontend, generated files, API routes, and content records come from.
-
-**Prefer working interactions.** A button should perform a real action, show meaningful feedback, or not be presented as a button.
-
-**Keep public claims grounded.** Screenshots, statistics, testimonials, and performance figures should have a clear source. Demonstration records should be labelled as examples.
-
-**Review what changes.** Use branch-based work, reproducible checks, explicit permissions, and separate approval for production releases.
-
-## Exploring the repositories
-
-For the clearest starting points, open the congregation website's [architecture and setup](https://github.com/zvenians/gmahk-galilea#system-design), the [Digital Archive documentation](https://github.com/zvenians/gmahk-galilea-digital-archive), or the [portfolio build guide](https://github.com/zvenians/kevins-portofolio).
-
-I keep historical and experimental work visible where it adds context, while separating it from projects that are actively maintained.
+- [Zvenians Web Study](https://github.com/zvenians/zvenians.github.io) — an independent product-presentation frontend study.
+- [Galilea Origins](https://github.com/zvenians/galilea) — a historical record of the first Galilea website initiative.
 
 ## Contact
 
-The best public starting point is the [portfolio](https://portfolio-kevins.vercel.app) or this [GitHub profile](https://github.com/zvenians). Please do not send credentials or private congregation records through public issues.
-
----
-
-*Built and maintained in Balikpapan, Indonesia.*
+The most direct way to explore my work is through the [portfolio](https://portfolio-kevins.vercel.app). Project discussions and source history are available in the relevant GitHub repositories.
