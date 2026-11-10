@@ -29,7 +29,7 @@ Web-based administrative workflows for a congregation board, including meeting r
 ### Kevin & Naomi — Wedding Demo
 A cinematic wedding invitation demonstration built with Next.js and TypeScript. It includes invitation, code-entry, RSVP, and wishes screens for portfolio exploration. Verification and guest responses are simulated; no live guest database is connected.
 
-[Source](https://github.com/zvenians/wedding-demo) · [Deployment target](https://wedding-demo-kevins.vercel.app/)
+Source repository: private · [Deployment target](https://wedding-demo-kevins.vercel.app/)
 
 ### Naomi Rouli
 A personal, nine-chapter editorial website combining photography, scroll-based chapter awareness, and accessible gallery and letter interactions. Built with HTML, CSS, and JavaScript.
